@@ -1,6 +1,6 @@
 print("Welcome to Quiz Game!")
 
-answer = input("Want to test you luck on some Gen 1 Pokemon questions? ")
+answer = input("Want to test your luck on some Gen 1 Pokemon questions? ")
 if answer.lower() != "yes":
     print("Maybe next time then!")
     quit()
