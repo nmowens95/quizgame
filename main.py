@@ -14,7 +14,7 @@ else:
     print("It was that little mouse Pokemon everyone loves, Pikachu!")
 
 answer = input("Question 2. What is the name of Ash's main rival? ")
-if answer.lower == "gary":
+if answer.lower() == "gary":
     score += 1
 else:
     print("How could you forget about Gary?")
